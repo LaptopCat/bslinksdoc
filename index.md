@@ -1,37 +1,129 @@
-## Welcome to GitHub Pages
+# Domains used for links
 
-You can use the [editor on GitHub](https://github.com/LaptopCat/bslinksdoc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- ## link.brawlstars.com (Normal game)
+- ## link-staging.brawlstars.com (Staging)
+- ## link-cn.brawlstars.com (Chinese BS version)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Protocols
 
-### Markdown
+- ## brawlstars:// (Normal game)
+- ## brawlstars-inbox:// (Normal game) 50/50
+- ## brawlstars-cn:// (Chinese BS) UNKNOWN
+- ## kakaogame241121:// (Normal game) UNKNOWN
+- ## kakaod509a010c29a8768bcc216071a43fa9b:// (Normal game) UNKNOWN
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## (*) - Required argument
+# brawlstars://
+## If you know any points that are not mentioned here, please make a pull request and add them.
+## Any invalid point just opens the game.
+- ## brawlstars://
+Opens the game. Thats all.
+<a href="brawlstars://"><button>Try it</button></a>
 
-```markdown
-Syntax highlighted code block
+- ## addFriend
+Adds a friend to your friend list.
+### Arguments:
+- ### tag (*)
+Player tag.
+- ### token (*)
+Friend invite token. (Only valid for 3 days)
 
-# Header 1
-## Header 2
-### Header 3
+### Example URL: 
+### ```brawlstars://addFriend?tag=SomeTagHere&token=SomeTokenHere```
 
-- Bulleted
-- List
+- ## supportcreator
+Supports a creator in the shop. (Expires after 7 days)
+### Arguments:
+- ### code (*)
+Content creator code.
 
-1. Numbered
-2. List
+### Example URL: 
+### ```brawlstars://supportcreator?code=OJ```
+<a href="brawlstars://supportcreator?code=OJ"><button>Try it</button></a>
 
-**Bold** and _Italic_ and `Code` text
+- ## joinBand
+Joins a club.
+### Arguments:
+- ### tag (*)
+Club tag.
+- ### token (*)
+Club invite token. (Only valid for 3 days)
 
-[Link](url) and ![Image](src)
-```
+### Example URL: 
+### ```brawlstars://joinBand?tag=SomeTagHere&token=SomeTokenHere```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- ## addFriend
+Adds a friend to your friend list.
+### Arguments:
+- ### tag (*)
+Player tag.
+- ### token (*)
+Friend invite token. (Only valid for 3 days)
 
-### Jekyll Themes
+### Example URL: 
+### ```brawlstars://addFriend?tag=SomeTagHere&token=SomeTokenHere```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LaptopCat/bslinksdoc/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- ## joinRoom
+Joins a gameroom.
+### Arguments:
+- ### tag (*)
+Gameroom tag. Only valid while there are people in the room.
 
-### Support or Contact
+### Example URL: 
+### ```brawlstars://joinRoom?tag=SomeTagHere```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- ## supercell_id
+Views a Supercell ID profile. If UUID not provided, opens the supercell id tab.
+### Arguments:
+- ### p
+Supercell ID account UUID.
+
+### Example URL: 
+### ```brawlstars://supercell_id&p=S0M3-UU1D-1S-H3R3```
+
+- ## extlink
+Opens Brawl Stars and then it opens your browser with a provided url. (it's used in the brawl stars inbox)
+### Arguments:
+- ### page (*)
+Page URL to open.
+
+### Example URL: 
+### ```brawlstars://extlink?page=brwl.cf```
+<a href="brawlstars://extlink?page=brwl.cf"><button>Try it</button></a>
+
+- ## webview
+Opens Brawl Stars and shows your page and title. (if no title provided, it is blank)
+### Arguments:
+- ### page (*)
+Page URL to open.
+- ### popup_title 
+Popup title. (Literally)
+### Example URL: 
+### ```brawlstars://webview?page=brwl.cf;popup_title=BRWL```
+<a href="brawlstars://webview?page=brwl.cf;popup_title=BRWL"><button>Try it</button></a>
+
+# brawlstars-inbox://
+## The protocol only works in the news tab of BS
+## If you know any points that are not mentioned here, please make a pull request and add them.
+- ## brawlstars-inbox://
+Unknown
+- ## getParams
+Unknown
+- ## shop
+Opens the shop.
+
+# brawlstars-cn://
+## Probably the same as brawlstars://
+## If you have the chinese version, you can try the normal game ones, please make a pull request and copy it if its correct
+
+# kakaogame241121://
+## If you know any points that are not mentioned here, please make a pull request and add them.
+- ## kakaogame241121://
+Opens the game. Thats all.
+<a href="kakaogame241121://"><button>Try it</button></a>
+
+# kakaod509a010c29a8768bcc216071a43fa9b://
+## If you know any points that are not mentioned here, please make a pull request and add them.
+- ## kakaod509a010c29a8768bcc216071a43fa9b://
+Opens the game. Thats all.
+<a href="kakaod509a010c29a8768bcc216071a43fa9b://"><button>Try it</button></a>
