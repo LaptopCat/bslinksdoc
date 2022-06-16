@@ -1,3 +1,4 @@
+# Brawl Stars links documentation (unofficial)
 # Domains used for links
 
 - ## link.brawlstars.com (Normal game)
@@ -51,17 +52,6 @@ Club invite token. (Only valid for 3 days)
 
 ### Example URL: 
 ### ```brawlstars://joinBand?tag=SomeTagHere&token=SomeTokenHere```
-
-- ## addFriend
-Adds a friend to your friend list.
-### Arguments:
-- ### tag (*)
-Player tag.
-- ### token (*)
-Friend invite token. (Only valid for 3 days)
-
-### Example URL: 
-### ```brawlstars://addFriend?tag=SomeTagHere&token=SomeTokenHere```
 
 - ## joinRoom
 Joins a gameroom.
