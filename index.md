@@ -117,3 +117,14 @@ Opens the game. Thats all.
 - ## kakaod509a010c29a8768bcc216071a43fa9b://
 Opens the game. Thats all.
 <a href="kakaod509a010c29a8768bcc216071a43fa9b://"><button>Try it</button></a>
+
+- ## kakaolink
+Unknown
+- ### Arguments:
+Unknown
+
+- ## kakaostory
+Unknown
+- ### Arguments:
+Unknown
+
