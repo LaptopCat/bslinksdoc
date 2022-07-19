@@ -21,6 +21,17 @@
 - ## brawlstars://
 Opens the game. Thats all.
 <a href="brawlstars://"><button>Try it</button></a>
+### Arguments:
+- ### action
+Currently known actions:
+- voucher
+Claims a voucher?
+- ### code
+Code for the voucher action (only required if action=voucher)
+
+### Example URL: 
+### ```brawlstars://action=voucher&code=SomeCodeHere```
+<a href="brawlstars://action=voucher&code=SomeCodeHere"><button>Try it</button></a>
 
 - ## addFriend
 Adds a friend to your friend list.
