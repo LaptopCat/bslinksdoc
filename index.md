@@ -12,6 +12,7 @@
 - ## brawlstars-cn:// (Chinese BS) UNKNOWN
 - ## kakaogame241121:// (Normal game) UNKNOWN
 - ## kakaod509a010c29a8768bcc216071a43fa9b:// (Normal game) UNKNOWN
+- ## selfweb:// (Normal game) UNKNOWN
 
 ## (*) - Required argument
 # brawlstars://
@@ -120,11 +121,23 @@ Opens the game. Thats all.
 
 - ## kakaolink
 Unknown
-- ### Arguments:
+### Arguments:
 Unknown
 
 - ## kakaostory
 Unknown
-- ### Arguments:
+### Arguments:
 Unknown
 
+# selfweb://
+## The protocol only works in the Help & Support tab of BS
+## If you know any points that are not mentioned here, please make a pull request and add them.
+- ## selfweb://
+Unknown
+- ## getParams
+Used to get Tag & name of current user
+- ## openWeb
+Opens a page on the web
+### Arguments:
+- ### url (*)
+Page to open
